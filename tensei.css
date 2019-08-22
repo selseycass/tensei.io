@@ -1,0 +1,79 @@
+body{
+    background: #fff;
+}
+#sidebar{
+    background: black;
+    background-attachment:fixed;
+    top: 0px;
+    left: 0px;
+    margin:0px 0px 0px 0px;
+    width: 310px;
+    height:10000px;
+    position: fixed;
+}
+#logo{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 296px;
+    z-index: 1;
+}
+#l_nav{
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    font-size: large;
+    line-height: 50px;
+    text-align: left;
+}
+#room{
+    vertical-align: top;
+    margin: 0px 20px 20px 310px;
+    padding:  20px 20px 20px 20px;
+}
+#manga{
+    width: 500px;
+}
+#media{
+    text-align: center;
+}
+#cartoon{
+    width: 700px;
+    background: url(img/アニメ化企画中.jpg) no-repeat;
+    text-align: center;
+}
+#ones{
+    text-align: left;
+}
+footer{
+    vertical-align: top;
+    margin: 20px 20px 20px 310px;
+    padding:  20px 20px 20px 20px;
+}
+#news{
+    font-size: large;
+    margin: 20px 20px 20px 0px;
+    padding:  20px 20px 20px 20px;
+    width: 100%;
+}
+#syosetu a:link{
+    color: black;
+}
+#syosetu a:visited{
+    color: red;
+}
+#syosetu a:hover{
+    color: black;
+}
+
+li a:link,li a:visited{
+    border-bottom: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+li{
+    list-style-image: url("img/wludi.jpg");
+    padding-top: 10px;
+    margin-left: 40px;
+}
